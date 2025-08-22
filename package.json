@@ -1,0 +1,24 @@
+{
+  "name": "vue-tech-blog",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/prismjs": "^1.26.5",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "markdown-it": "^14.1.0",
+    "prismjs": "^1.30.0",
+    "vite": "^7.1.3",
+    "vue": "^3.5.19",
+    "vue-router": "^4.5.1"
+  }
+}
