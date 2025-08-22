@@ -9,7 +9,7 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: './',
+  base: '/sxl193258/',
   build: {
     outDir: 'dist',
     assetsDir: 'assets'
