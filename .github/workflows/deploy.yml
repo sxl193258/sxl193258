@@ -50,7 +50,11 @@ jobs:
         echo "Build completed, checking dist contents:"
         ls -la dist/
         echo "Checking index.html content:"
-        head -20 dist/index.html
+        cat dist/index.html
+        echo "Creating debug info file:"
+        echo "Build time: $(date)" > dist/build-info.txt
+        echo "Node version: $(node --version)" >> dist/build-info.txt
+        echo "NPM version: $(npm --version)" >> dist/build-info.txt
 
     - name: 📄 Setup Pages
       uses: actions/configure-pages@v4
