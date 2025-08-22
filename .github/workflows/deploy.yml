@@ -44,7 +44,13 @@ jobs:
       run: npm ci
 
     - name: 🏗️ Build application
-      run: npm run build
+      run: |
+        echo "Building with NODE_ENV=production"
+        NODE_ENV=production npm run build
+        echo "Build completed, checking dist contents:"
+        ls -la dist/
+        echo "Checking index.html content:"
+        head -20 dist/index.html
 
     - name: 📄 Setup Pages
       uses: actions/configure-pages@v4
