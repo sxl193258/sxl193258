@@ -46,7 +46,7 @@
         </div>
       </div>
       
-      <!-- 底部信息 */
+      <!-- 底部信息 -->
       <div class="footer-bottom">
         <div class="copyright">
           <p>&copy; {{ currentYear }} sxl193258. 基于 Vue 3 构建</p>
