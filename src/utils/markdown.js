@@ -26,7 +26,6 @@ const md = new MarkdownIt({
   linkify: true,
   typographer: true,
   breaks: true,
-  quotes: '""''',
   highlight: function (str, lang) {
     if (lang && Prism.languages[lang]) {
       try {
