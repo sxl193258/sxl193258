@@ -6,7 +6,7 @@
         <div class="profile-container">
           <div class="profile-avatar">
             <div class="avatar-ring"></div>
-            <img src="/api/placeholder/150/150" alt="sxl193258" class="avatar-img">
+            <img src="https://via.placeholder.com/150x150/6366f1/ffffff?text=SXL" alt="sxl193258" class="avatar-img">
           </div>
           
           <div class="profile-info">
